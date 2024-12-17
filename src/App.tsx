@@ -13,6 +13,7 @@ function App() {
       window.URL.revokeObjectURL(url);
     } catch (error) {
       console.error("Error downloading image:", error);
+      console.log("Error downloading image:", error);
     }
   };
 
