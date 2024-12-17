@@ -1,7 +1,7 @@
 function App() {
   const handleDownload = async () => {
     try {
-      const response = await fetch("/event-flyer.jpg");
+      const response = await fetch("/flyer.jpg");
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
@@ -39,7 +39,7 @@ function App() {
           <img
             src="/flyer.png"
             alt="Flyer del evento con detalles de música reggaeton y tech house"
-            className="w-[90%] rounded-lg shadow-lg"
+            className="mx-auto w-[90%] rounded-lg shadow-lg"
           />
         </button>
 
