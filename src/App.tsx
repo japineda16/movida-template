@@ -26,7 +26,7 @@ function App() {
         </div>
 
         {/* Title */}
-        <h1 className="text-4xl text-center mb-8 font-light text-white">
+        <h1 className="text-2xl text-center mb-8 font-light text-white">
           Presiona la imagen para descargar
         </h1>
 
@@ -39,7 +39,7 @@ function App() {
           <img
             src="/flyer.png"
             alt="Flyer del evento con detalles de música reggaeton y tech house"
-            className="w-[]94%] rounded-lg shadow-lg"
+            className="w-[90%] rounded-lg shadow-lg"
           />
         </button>
 
