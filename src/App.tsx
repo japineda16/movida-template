@@ -1,7 +1,7 @@
 function App() {
   const handleDownload = async () => {
     try {
-      const response = await fetch("/flyer.jpg");
+      const response = await fetch("/flyer.png");
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
