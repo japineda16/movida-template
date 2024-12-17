@@ -21,7 +21,7 @@ function App() {
     <div className="min-h-screen bg-black text-white">
       <div className="max-w-2xl mx-auto p-4 space-y-4">
         {/* Logo */}
-        <div className="w-full mx-auto mb-8">
+        <div className="w-[90%] mx-auto mb-8">
           <img src="/logo.png" alt="Logo" className="w-full" />
         </div>
 
@@ -39,7 +39,7 @@ function App() {
           <img
             src="/flyer.png"
             alt="Flyer del evento con detalles de música reggaeton y tech house"
-            className="w-full rounded-lg shadow-lg"
+            className="w-[]94%] rounded-lg shadow-lg"
           />
         </button>
 
