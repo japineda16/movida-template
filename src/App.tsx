@@ -1,12 +1,12 @@
 function App() {
   const handleDownload = async () => {
     try {
-      const response = await fetch("/flyer.jpg");
+      const response = await fetch("/flyer.JPG");
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = "event-flyer.jpg";
+      link.download = "event-flyer.JPG";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -37,7 +37,7 @@ function App() {
           aria-label="Descargar flyer del evento"
         >
           <img
-            src="/flyer.jpg"
+            src="/flyer.JPG"
             alt="Flyer del evento con detalles de música reggaeton y tech house"
             className="mx-auto w-[90%] rounded-lg shadow-lg"
           />
